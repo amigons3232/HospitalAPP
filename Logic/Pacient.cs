@@ -9,7 +9,7 @@ namespace Logic
     public class Pacient
     {
     }
-}
+}dddddd
 amespace Logic
 {
     public class Pacient
