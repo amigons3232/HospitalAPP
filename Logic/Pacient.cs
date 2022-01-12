@@ -10,3 +10,9 @@ namespace Logic
     {
     }
 }
+amespace Logic
+{
+    public class Pacient
+    {
+    }
+}
