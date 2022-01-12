@@ -1,0 +1,7 @@
+T:\git\courseworks\Регистратура больницы\LogicHospital\bin\Debug\LogicHospital.dll.config
+T:\git\courseworks\Регистратура больницы\LogicHospital\bin\Debug\LogicHospital.dll
+T:\git\courseworks\Регистратура больницы\LogicHospital\bin\Debug\LogicHospital.pdb
+T:\git\courseworks\Регистратура больницы\LogicHospital\obj\Debug\LogicHospital.csproj.CoreCompileInputs.cache
+T:\git\courseworks\Регистратура больницы\LogicHospital\obj\Debug\LogicHospital.dll
+T:\git\courseworks\Регистратура больницы\LogicHospital\obj\Debug\LogicHospital.pdb
+T:\git\courseworks\Регистратура больницы\LogicHospital\obj\Debug\LogicHospital.csproj.AssemblyReference.cache
