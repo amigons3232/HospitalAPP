@@ -1,0 +1,7 @@
+T:\git\courseworks\Регистратура больницы\Logic\obj\Debug\Logic.csproj.AssemblyReference.cache
+T:\git\courseworks\Регистратура больницы\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+T:\git\courseworks\Регистратура больницы\Logic\bin\Debug\Logic.dll.config
+T:\git\courseworks\Регистратура больницы\Logic\bin\Debug\Logic.dll
+T:\git\courseworks\Регистратура больницы\Logic\bin\Debug\Logic.pdb
+T:\git\courseworks\Регистратура больницы\Logic\obj\Debug\Logic.dll
+T:\git\courseworks\Регистратура больницы\Logic\obj\Debug\Logic.pdb
