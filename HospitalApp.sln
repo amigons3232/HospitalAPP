@@ -39,3 +39,11 @@ Global
 		{C30FEDC3-7207-4631-A574-C55E676F90B9}.Release|Any CPU.ActiveCfg = Release|x86
 		{C30FEDC3-7207-4631-A574-C55E676F90B9}.Release|x86.ActiveCfg = Release|x86
 		{C30FEDC3-7207-4631-A574-C55E676F90B9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB25AA7D-55A5-47EF-A418-EC85F9E63335}
+	EndGlobalSection
+EndGlobal
