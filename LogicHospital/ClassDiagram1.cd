@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LogicHospital.AbstractEntity">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>AbstractEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicHospital.Doctor" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAAAACAACAAQAgAAAAAAAAAAAAAAAAAAkA=</HashCode>
+      <FileName>Doctor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LogicHospital.DoctorFabric" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>DoctorFabric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicHospital.Palata">
+    <Position X="17" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACACAAAAABgAAAAYAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Palata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicHospital.PalataFabric" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>PalataFabric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicHospital.Patient" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEgAAAIIAAACQACAAACgAAABgCCAAQAAAAAAAAgA=</HashCode>
+      <FileName>Patient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LogicHospital.PatientFabric" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>PatientFabric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LogicHospital.InterfacePeople">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAACAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfacePeople.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
