@@ -21,7 +21,12 @@ namespace LogicHospital
             this.otdel = otdel;
         }
 
-        
+        public Palata(string num, string size, string otdel)
+        {
+            this.num = num;
+            this.size = size;
+            this.otdel = otdel;
+        }
 
         public string Id { get => id; set => id = value; }
         public string Num { get => num; set => num = value; }
