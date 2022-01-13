@@ -23,7 +23,23 @@ namespace HospitalApp
             this.палатыTableAdapter.Fill(this.dbDataSet.Палаты);
         }
 
-        
+        private void InfoFreeForm_Load(object sender, EventArgs e)
+        {
+            палатыBindingSource.SuspendBinding();
+            OleDbConnection conn = new OleDbConnection(Properties.Settings.Default.dbConnectionString);
+            conn.Open();
+            OleDbCommand checkLogin = conn.CreateCommand();
+            for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                checkLogin.CommandText = "SELECT Count(Код_пациента) FROM Пациенты WHERE Код_палаты = " + dataGridView1[0, i].Value.ToString();
+                var prodInfo = Convert.ToInt32(checkLogin.ExecuteScalar());
+                if (prodInfo >= Convert.ToInt32(dataGridView1[2, i].Value))
+                {
+                    dataGridView1.Rows[i].Visible = false;
+                }
+            }
+            conn.Close();
+            палатыBindingSource.ResumeBinding();
             
         }
 
