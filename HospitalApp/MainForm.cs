@@ -293,6 +293,14 @@ namespace HospitalApp
             }
         }
 
-        
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            exportToExcel(dataGridView1);
+        }
+
+        private void справкмToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("Справка.pdf");
+        }
     }
 }
