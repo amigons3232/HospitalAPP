@@ -28,10 +28,6 @@ namespace LogicHospital
             this.otdel = otdel;
         }
 
-        public string Id { get => id; set => id = value; }
-        public string Num { get => num; set => num = value; }
-           
-        public string Size { get => size; set => size = value; }
-        public string Otdel { get => otdel; set => otdel = value;}
+        
     }
 }
