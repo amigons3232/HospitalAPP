@@ -16,7 +16,14 @@ namespace HospitalApp
 {
     public partial class MainForm : Form
     {
-        
+        AbstractEntity factory;
+        Form parentForm;
+        public MainForm(Form parentForm)
+        {
+            InitializeComponent();
+            this.parentForm = parentForm;
+            factory = new PatientFabric();
+        }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
