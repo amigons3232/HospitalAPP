@@ -97,7 +97,10 @@ namespace HospitalApp
             }
         }
 
-        
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            parentForm.Show();
+        }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
