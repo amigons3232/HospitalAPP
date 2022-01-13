@@ -21,6 +21,14 @@ namespace HospitalApp
 
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == Properties.Settings.Default.Логин && maskedTextBox1.Text == Properties.Settings.Default.Пароль)
+            {
+                MainForm mainForm = new MainForm(this);
+                mainForm.Show();
+                this.Hide();
+            }
+        }
     }
 }
