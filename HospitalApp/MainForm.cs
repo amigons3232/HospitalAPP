@@ -102,7 +102,38 @@ namespace HospitalApp
             parentForm.Show();
         }
 
-        
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (MessageBox.Show("Вы действительно хотите выписать этого пациента?\n", "Подтвердите удаление", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                foreach (DataGridViewRow item in dataGridView1.SelectedRows)
+                {
+                    if (MessageBox.Show("Распечатать запись об этом пациенте?\n", "Печать", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    {
+                        var dia = new System.Windows.Forms.SaveFileDialog();
+                        dia.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                        dia.Filter = "Text file (*.txt)|*.txt|All files (*.*)|*.*";
+                        if (dia.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
+                        {
+                            string[] lines = { "------------------------------", 
+                                               "Код пациента: "+item.Cells[0].Value.ToString(), 
+                                               "ФИО: "+item.Cells[1].Value.ToString(), 
+                                               "Код палаты: "+item.Cells[2].Value.ToString(), 
+                                               "Код врача: "+item.Cells[3].Value.ToString(), 
+                                               "Дата поступления: "+item.Cells[4].Value.ToString(), 
+                                               "Диагноз: "+item.Cells[5].Value.ToString(), 
+                                               "Дата выписки: "+item.Cells[6].Value.ToString(), 
+                                               "------------------------------", 
+                                               };
+                            File.WriteAllLines(dia.FileName, lines);
+                            Process.Start(dia.FileName);
+                        }
+                    }
+                    пациентыBindingSource.RemoveAt(item.Index);
+                }
+                saveChanges();
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
